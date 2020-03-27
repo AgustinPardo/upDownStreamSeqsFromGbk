@@ -1,7 +1,13 @@
 from Bio import SeqIO
 
+#Input files 
+#fasta of query  sequences
+#gbk to search the query sequences
 fasta_filename="secuencia_nucleotidos.fasta"
 gbk_filename = "st5.gbk"
+
+#Output file:
+#Fasta with the original sequences and the extended upstream and downstream sequences
 fna_filename = "300UpDownStream.fna"
 
 input_fasta_handle  = open(fasta_filename, "r")
