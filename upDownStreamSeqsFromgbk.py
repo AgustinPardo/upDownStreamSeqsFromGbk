@@ -1,6 +1,6 @@
 from Bio import SeqIO
 
-#Input files 
+#Input files:
 #fasta of query  sequences
 #gbk to search the query sequences
 fasta_filename="secuencia_nucleotidos.fasta"
