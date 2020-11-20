@@ -27,6 +27,12 @@ upstream=1500
 downstream=0
 ```
 
+### Run.
+
+```python
+python3 upDownStreamSeqsFromgbk.py
+```
+
 ## Extract extended fasta
 bash expand_fasta.sh < UpDownStream.fna
 
