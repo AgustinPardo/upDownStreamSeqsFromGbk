@@ -47,7 +47,7 @@ for gb_record in SeqIO.parse(input_gbk_handle, "genbank"):
 					   feature.location.extract(gb_record).seq
 					   ))
 
-				new_feature_location = SeqFeature.FeatureLocation(feature.location.start-upstream, feature.location.end, feature.location.strand+downstream)
+				new_feature_location = SeqFeature.FeatureLocation(feature.location.start-upstream, feature.location.end+downstream, feature.location.strand)
 				# print("Upstream - Downstream extended")
 				# print(new_feature_location.start-new_feature_location.end)
 				# print (">", new_feature_location, gb_record.id,feature.qualifiers["locus_tag"][0])
