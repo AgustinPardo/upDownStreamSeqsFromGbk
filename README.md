@@ -20,7 +20,7 @@ Include file name and "fasta" or "txt" type file.
 input_file_name_type=["/home/agustin/workspace/upDownStreamSeqsFromGbk/karina/IDcluster10.txt","txt"] # <-Please change->
 ```
 ### Output file:
-Fasta with the original sequences and the extended upstream and downstream sequences. 
+The output is a fasta file format with the original sequences and the extended upstream and downstream sequences. Set the name of the output file:
 
 ```python
 fna_filename = "UpDownStream.fna" # <-Please change->
