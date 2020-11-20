@@ -20,6 +20,13 @@ input_file_name_type=["/home/agustin/workspace/upDownStreamSeqsFromGbk/karina/ID
 fna_filename = "UpDownStream.fna" # <-Please change->
 ```
 
+### How much to extend.
+
+```python
+upstream=1500
+downstream=0
+```
+
 ## Extract extended fasta
 bash expand_fasta.sh < UpDownStream.fna
 
