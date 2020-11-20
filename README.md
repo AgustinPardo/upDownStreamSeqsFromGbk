@@ -23,8 +23,8 @@ fna_filename = "UpDownStream.fna" # <-Please change->
 ### How much to extend.
 
 ```python
-upstream=1500
-downstream=0
+upstream=1500 <-Please change->
+downstream=0 <-Please change->
 ```
 
 ### Run.
