@@ -15,8 +15,8 @@ fna_filename = "UpDownStream.fna" # <-Please change->
 output_handle = open(fna_filename, "w")
 
 #How much to extend.
-upstream=1500
-downstream=0
+upstream=1500 # <-Please change->
+downstream=0  # <-Please change->
 
 def get_ids_input(file_input, file_type):
         input_handle  = open(file_input, "r")
