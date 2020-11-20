@@ -1,5 +1,11 @@
 # upDownStreamSeqsFromGbk
 
+### Set requirements
+
+```python
+pip install -r requirements.txt
+```
+
 ## upDownStreamSeqsFromgbk.py
 ### Input files:
 Genbank file to search the gen positions and extended sequences.
