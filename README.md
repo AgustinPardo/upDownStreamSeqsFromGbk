@@ -45,4 +45,9 @@ bash expand_fasta.sh < UpDownStream.fna
 ## Extract original fasta
 bash original_fasta.sh < UpDownStream.fna
 
+## Extract extended region from upstream
+awk '{if (/^>/) print $0; else print(substr($1,1,1500)) }' extended.fasta 
+
+## Extract extended region from downstream
+awk '{if (/^>/) print $0; else print(substr($1, length($1)-1500, length($1))) }' extended.fasta 
 
