@@ -52,3 +52,9 @@ awk '{if (/^>/) print $0; else print(substr($1,1,1500)) }' extended.fasta
 ## Extract extended region from downstream
 awk '{if (/^>/) print $0; else print(substr($1, length($1)-1500, length($1))) }' extended.fasta 
 
+## Run the GUI output parser
+```bash
+bash parserApp.sh
+```
+
+
